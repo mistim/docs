@@ -225,7 +225,7 @@ elm-package install NoRedInk/elm-decode-pipeline
 This will add the dependencies to your `elm-package.json` file that describes your project. (Or create it if you do not have one yet!) More information about all this [here](https://github.com/elm-lang/elm-package)!
  -->
 
-Это добавит зависимости к вашему файлу `elm-package.json`, который описывает ваш проект. (Или создать его, если у вас его еще нет!) Дополнительная информация обо всем этом [здесь] (https://github.com/elm-lang/elm-package)!
+Это добавит зависимости к вашему файлу `elm-package.json`, который описывает ваш проект. (Или создать его, если у вас его еще нет!) Дополнительная информация обо всем этом [здесь](https://github.com/elm-lang/elm-package)!
 
 <!-- 
 **Notable commands:**
