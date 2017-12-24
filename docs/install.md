@@ -2,7 +2,7 @@
 <!-- > **Note:** If you do not want to install yet, you can follow along in this guide with the [online editor](http://elm-lang.org/try) and the [online REPL](http://elmrepl.cuberoot.in/).
 -->
 
- > **Примечание:** Если вы еще не хотите устанавливать, вы можете следовать этому руководству с помощью [онлайн-редактора](http://elm-lang.org/try) и [онлайн REPL](http://elmrepl.cuberoot.in/
+ > **Примечание:** Если вы еще не хотите устанавливать, вы можете следовать этому руководству с помощью [онлайн-редактора](http://elm-lang.org/try) и [онлайн REPL](http://elmrepl.cuberoot.in/).
 
 <!-- 
 # Install
@@ -16,8 +16,8 @@
   * Anywhere &mdash; [npm installer][npm] or [build from source][build]
  -->
 
-* Mac &mdash; [Установщик][mac]
-* Windows &mdash; [Установщик][win]
+* Mac &mdash; [установщик][mac]
+* Windows &mdash; [установщик][win]
 * Anywhere &mdash; [npm installer][npm] или [build from source][build]
 
 [mac]: http://install.elm-lang.org/Elm-Platform-0.18.pkg
@@ -36,7 +36,7 @@ After installing through any of those routes, you will have the following comman
 
 После установки через любой из этих маршрутов у вас будут следующие средства командной строки:
 
-- [`elm-repl`](#elm-repl) &mdash; играть с выражениями Elm
+- [`elm-repl`](#elm-repl) &mdash; интерактивная работа с выражениями Elm
 - [`elm-reactor`](#elm-reactor) &mdash; быстро получить проект
 - [`elm-make`](#elm-make) &mdash; скомпилировать код Elm
 - [`elm-package`](#elm-package) &mdash; скачать пакеты
@@ -98,7 +98,7 @@ You may also want to try out [elm-format][] which makes your code pretty!
 So we installed Elm, and it gave us `elm-repl`, `elm-reactor`, `elm-make`, and `elm-package`. But what do they all do exactly?
  -->
 
-Поэтому мы установили Elm, и это дало нам `elm-repl`, `elm-reactor`, `elm-make` и `elm-package`. Но что они все делают точно?
+Поэтому мы установили Elm, и это дало нам `elm-repl`, `elm-reactor`, `elm-make` и `elm-package`. Но что именно все они делают?
 
 ### elm-repl
 
@@ -106,7 +106,7 @@ So we installed Elm, and it gave us `elm-repl`, `elm-reactor`, `elm-make`, and `
 [`elm-repl`](https://github.com/elm-lang/elm-repl) lets you play with simple Elm expressions.
  -->
 
-[`elm-repl`](https://github.com/elm-lang/elm-repl) позволяет вам играть с помощью простых выражений Elm.
+[`elm-repl`](https://github.com/elm-lang/elm-repl) позволяет вам интерактивно работать с простыми выражениями Elm.
 
 ```bash
 $ elm-repl
@@ -127,13 +127,13 @@ $
 We will be using `elm-repl` in the upcoming &ldquo;Core Language&rdquo; section, and you can read more about how it works [here](https://github.com/elm-lang/elm-repl/blob/master/README.md).
  -->
 
-Мы будем использовать `elm-repl` в предстоящем &ldquo;Core Language&rdquo; раздел, и вы можете узнать больше о том, как это работает [здесь](https://github.com/elm-lang/elm-repl/blob/master/README.md).
+Мы будем использовать `elm-repl` в предстоящем разделе &ldquo;Основы языка&rdquo;, и вы можете узнать больше о том, как это работает [здесь](https://github.com/elm-lang/elm-repl/blob/master/README.md).
 
 <!-- 
 > **Note:** `elm-repl` works by compiling code to JavaScript, so make sure you have [Node.js](http://nodejs.org/) installed. We use that to evaluate code.
  -->
 
-> **Примечание:** `elm-repl` работает, компилируя код на JavaScript, поэтому убедитесь, что у вас установлен [Node.js](http://nodejs.org/). Мы используем это для оценки кода.
+> **Примечание:** `elm-repl` работает, компилируя код на JavaScript, поэтому убедитесь, что у вас установлен [Node.js](http://nodejs.org/). Мы используем это для выполнения кода.
 
 ### elm-reactor
 
@@ -141,7 +141,7 @@ We will be using `elm-repl` in the upcoming &ldquo;Core Language&rdquo; section,
 [`elm-reactor`](https://github.com/elm-lang/elm-reactor) helps you build Elm projects without messing with the command-line too much. You just run it at the root of your project, like this:
  -->
 
-[`elm-reactor`](https://github.com/elm-lang/elm-reactor) помогает вам создавать проекты Elm, не слишком запускаясь с командной строкой. Вы просто запускаете его в корне своего проекта, например:
+[`elm-reactor`](https://github.com/elm-lang/elm-reactor) помогает вам создавать проекты Elm и при этом не слишком возится с командной строкой. Вы просто запускаете его в корне своего проекта, например:
 
 ```bash
 git clone https://github.com/evancz/elm-architecture-tutorial.git
@@ -167,8 +167,8 @@ This starts a server at [`http://localhost:8000`](http://localhost:8000). You ca
 
 **Значимые флаги:**
 
-- `--port` позволяет вам выбрать что-то помимо порта 8000. Таким образом, вы можете сказать `elm-reactor --port=8123`, чтобы заставить вещи работать на` http://localhost:8123`.
-- `--address` позволяет вам заменить localhost на другой адрес. Для например, вы можете использовать `elm-reactor -address=0.0.0.0`, если хотите попробуйте программу Elm на мобильном устройстве через вашу локальную сеть.
+- `--port` позволяет вам выбрать что-то помимо порта 8000. Таким образом, вы можете сказать `elm-reactor --port=8123`, чтобы заставить все работать на` http://localhost:8123`.
+- `--address` позволяет вам заменить localhost на другой адрес. Так, например, вы можете использовать `elm-reactor -address=0.0.0.0`, если хотите попробуйте программу Elm на мобильном устройстве через вашу локальную сеть.
 
 ### elm-make
 
@@ -236,9 +236,9 @@ This will add the dependencies to your `elm-package.json` file that describes yo
 - `diff`: get the difference between two APIs
  -->
 
-** Известные команды: **
+**Известные команды:**
 
 - `install`: установить зависимости в `elm-package.json`
 - `publish`: опубликовать вашу библиотеку в каталоге пакета Elm
-- `bump`: номера версий bump на основе изменений API
+- `bump`: номера версий на основе изменений API
 - `diff`: получить разницу между двумя API
