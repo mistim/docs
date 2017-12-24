@@ -10,11 +10,10 @@ An Introduction to Elm
 {:.origin_doc}
  -->
 
-** Elm - это функциональный язык, который компилируется на JavaScript. ** Он конкурирует с такими проектами, как React, как инструмент для создания веб-сайтов и веб-приложений. Elm уделяет большое внимание простоте, простоте использования и качественной оснастке.
+**Elm - это функциональный язык, который компилируется на JavaScript.** Он конкурирует с такими проектами, как React, как инструмент для создания веб-сайтов и веб-приложений. Elm уделяет большое внимание простоте, простоте использования и качественной оснастке.
 
 <!-- 
 This guide will:
-
 	- Teach you the fundamentals of programming in Elm.
   - Show you how to make interactive apps with *The Elm Architecture*.
   - Emphasize the principles and patterns that generalize to programming in any language.
@@ -23,7 +22,6 @@ This guide will:
 -->
 
 Это руководство:
-
 	- научит вас основам программирования в Elm.
 	- покажит, как создавать интерактивные приложения с *The Elm Architecture*.
 	- подчеркнит принципы и закономерности, которые обобщают программирование на любом языке.
@@ -104,7 +102,6 @@ Why a *functional* language?
 
 <!-- 
 Forget what you have heard about functional programming. Fancy words, weird ideas, bad tooling. Barf. Elm is about:
-
   - No runtime errors in practice. No `null`. No `undefined` is not a function.
   - Friendly error messages that help you add features more quickly.
   - Well-architected code that *stays* well-architected as your app grows.
@@ -114,7 +111,6 @@ Forget what you have heard about functional programming. Fancy words, weird idea
  -->
 
 Забудьте о том, что вы слышали о функциональном программировании. Необычные слова, странные идеи, плохое оснащение. Буэээ. Об Elm:
-
    - на практике отсутствуют ошибки времени выполнения. Нет `null`. Нет `undefined` не является функцией.
    - дружественные сообщения об ошибках, которые помогут вам быстрее добавлять функционал.
    - хорошо продуманный код, который *остается* хорошо продуманным, так как ваше приложение растет.
