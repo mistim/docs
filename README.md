@@ -22,9 +22,10 @@ This guide will:
 -->
 
 Это руководство:
-	- научит вас основам программирования в Elm.
-	- покажит, как создавать интерактивные приложения с *The Elm Architecture*.
-	- подчеркнит принципы и закономерности, которые обобщают программирование на любом языке.
+
+* научит вас основам программирования в Elm.
+* покажит, как создавать интерактивные приложения с *The Elm Architecture*.
+* подчеркнит принципы и закономерности, которые обобщают программирование на любом языке.
 
 <!-- 
 By the end I hope you will not only be able to create great web apps in Elm, but also understand the core ideas and patterns that make Elm nice to use.
@@ -111,10 +112,11 @@ Forget what you have heard about functional programming. Fancy words, weird idea
  -->
 
 Забудьте о том, что вы слышали о функциональном программировании. Необычные слова, странные идеи, плохое оснащение. Буэээ. Об Elm:
-   - на практике отсутствуют ошибки времени выполнения. Нет `null`. Нет `undefined` не является функцией.
-   - дружественные сообщения об ошибках, которые помогут вам быстрее добавлять функционал.
-   - хорошо продуманный код, который *остается* хорошо продуманным, так как ваше приложение растет.
-   - автоматическое принудительное семантическое управление версиями для всех пакетов Elm.
+
+* на практике отсутствуют ошибки времени выполнения. Нет `null`. Нет `undefined` не является функцией.
+* дружественные сообщения об ошибках, которые помогут вам быстрее добавлять функционал.
+* хорошо продуманный код, который *остается* хорошо продуманным, так как ваше приложение растет.
+* автоматическое принудительное семантическое управление версиями для всех пакетов Elm.
 
 <!-- 
 No combination of JS libraries can ever give you this, yet it is all free and easy in Elm. Now these nice things are *only* possible because Elm builds upon 40+ years of work on typed functional languages. So Elm is a functional language because the practical benefits are worth the couple hours you'll spend reading this guide.
